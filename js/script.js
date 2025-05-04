@@ -3,6 +3,8 @@ const cano = document.querySelector('.cano');
 const aviao = document.querySelector('.aviao');
 const nuvem = document.querySelector('.nuvem');
 const estrela = document.querySelector('.estrela');
+const botaoPular = document.querySelector('#btnPular');
+
 const boxGameOver = document.querySelector('.game-over');
 
 let posicaoInicialCano = '-40px';
@@ -53,6 +55,9 @@ const pular = () => {
     mario.classList.add("pular");
     setTimeout(() => { mario.classList.remove("pular") }, 650)
 }
+
+//Botao para a versao mobile
+botaoPular.addEventListener('click', pular);
 
 //aciona o evento de Pular ao apertar a barra de espaço
 document.addEventListener('keydown', (event) => {
