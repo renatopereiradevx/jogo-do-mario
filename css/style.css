@@ -213,3 +213,19 @@ header {
 #btn-reiniciar span {
     font-size: 18px;
 }
+
+.botaoMobile {
+    text-align: center;
+    
+}
+
+.botaoMobile button {
+    font-size: 30px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.botaoMobile button:active {
+    font-size: 27px;
+}
