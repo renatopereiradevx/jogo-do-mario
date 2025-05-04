@@ -216,16 +216,16 @@ header {
 
 .botaoMobile {
     text-align: center;
-    
+    margin-top: 2em;
 }
 
 .botaoMobile button {
-    font-size: 30px;
+    font-size: 50px;
     background-color: transparent;
     border: 0;
     cursor: pointer;
 }
 
 .botaoMobile button:active {
-    font-size: 27px;
+    font-size: 47px;
 }
