@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Mário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/super-mario-titulo.png" width="250" alt="Super Mário">
+    </header>
+
+    <div class="container">
+        <div class="mario"></div>
+        <div class="estrela"></div>
+        <div class="cano movimentarCano"></div>
+        <div class="aviao"></div>
+        <div class="chao"></div>
+        <div class="nuvem movimentarNuvem"></div>
+        <div class="montanha"></div>
+        <div class="game-over">
+            <div>Game Over</div>
+            <button id="btn-reiniciar" onclick="reiniciar()"><span>▶️</span> Play</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
